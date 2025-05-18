@@ -120,10 +120,10 @@ To load schema / master data we need to install mongodb client and then we can l
 
 To have mongo client installed we have to setup MongoDB repo and install mongodb-client. You can create file using
 
-```
+```shell
 vim /etc/yum.repos.d/mongo.repo 
 
-``` shell title=/etc/yum.repos.d/mongo.repo
+
 [mongodb-org-7.0]
 name=MongoDB Repository
 baseurl=https://repo.mongodb.org/yum/redhat/9/mongodb-org/7.0/x86_64/
